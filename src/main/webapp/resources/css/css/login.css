@@ -1,0 +1,104 @@
+	.jumbotron {
+		background-image: url('<c:url value="/resources/images/banner.jpg" />');
+
+		background-size: cover;
+		background-position: center;
+		color: rgb(0, 0, 0);
+		text-shadow: 1px 1px 6px #747474;
+		height: 550px;
+	}
+
+	.modal-dialog {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 80vh;
+	}
+
+	.modal-content {
+		width: 100%;
+		max-width: 500px;
+	}
+
+	.navbar-brand {
+		font-weight: bold;
+	}
+
+	.footer {
+		background-color: #040404;
+	}
+
+	.carousel-inner {
+		height: 730px;
+		width: 100%;
+	}
+
+
+
+	.modal-dialog {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 80vh;
+	}
+
+	.modal-content {
+		width: 100%;
+		max-width: 500px;
+	}
+
+	.navbar-brand {
+		font-weight: bold;
+	}
+
+	.footer {
+		background-color: #040404;
+	}
+
+	.border-table {
+		position: relative;
+		border: solid 2px black;
+		padding-top: 20px;
+		/* Đệm trên để tiêu đề không che khuất nội dung */
+	}
+
+	.title-table {
+		position: absolute;
+		top: -15px;
+		left: 10px;
+		background: white;
+		/* Màu nền để tiêu đề không bị che khuất */
+		padding: 0 5px;
+		/* Đệm xung quanh tiêu đề */
+	}
+
+	.modal-content {
+		border-radius: 8px;
+		padding: 15px;
+	}
+
+	.btn {
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.btn:active {
+		transform: scale(0.95);
+	}
+
+	@keyframes btn-click {
+		0% {
+			transform: scale(1);
+		}
+
+		50% {
+			transform: scale(0.95);
+		}
+
+		100% {
+			transform: scale(1);
+		}
+	}
+
+	.btn:active {
+		animation: btn-click 0.3s ease-in-out;
+	}

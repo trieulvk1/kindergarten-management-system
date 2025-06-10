@@ -1,0 +1,207 @@
+.part2 h6 {
+	font-size: 13px;
+}
+
+.box {
+	height: 78px;
+	width: 60x;
+	border: solid 2px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 55px;
+	box-shadow: 2px 3px 4px 0px;
+}
+
+.error-msg1,
+.error-msg2,
+.error-msg3,
+.error-msg4,
+.error-msg5 {
+	font-size: 13px;
+}
+
+.col-1 .ml-1 label {
+	font-weight: bold;
+}
+
+.form-control {
+	font-size: 13px;
+	border: solid 1px;
+}
+
+.col-form-label {
+	font-size: 13px;
+}
+
+th,
+td {
+	padding: 0.75rem;
+	text-align: left;
+	vertical-align: top;
+	border-top: 1px solid #dee2e6;
+}
+
+.tenThucPham {
+	font-size: 12px;
+}
+
+.title-table {
+	position: absolute;
+	top: -13px;
+	left: 10px;
+	background: white;
+	/* Màu nền để tiêu đề không bị che khuất */
+	padding: 0 5px;
+	/* Đệm xung quanh tiêu đề */
+}
+
+.col-form-label {
+	font-size: 10px;
+	font-weight: bold;
+	text-align: right;
+}
+
+label {
+	font-size: 13px;
+}
+
+button {
+	box-shadow: 2px 3px 4px 0px;
+}
+
+.carousel-inner {
+	height: 400px;
+	width: 100%;
+}
+
+.scrollable-table {
+	height: 80px;
+	overflow-y: auto;
+	margin-top: 5px;
+	border-radius: 5px;
+	border: solid 1px rgb(0, 0, 0);
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	height: 42px;
+	/* Đặt chiều cao phù hợp */
+	background-color: #f8f9fa;
+	/* Màu nền tùy ý */
+	border: none;
+	/* Loại bỏ border */
+	box-shadow: none;
+	/* Loại bỏ box-shadow */
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	width: 100%;
+	margin: 0;
+	/* Loại bỏ margin */
+	padding: 0;
+	/* Loại bỏ padding */
+}
+
+nav ul li {
+	flex: 1;
+	text-align: center;
+	line-height: 50px;
+	/* Căn giữa văn bản theo chiều dọc */
+	border: none;
+	/* Loại bỏ border */
+	box-shadow: none;
+	/* Loại bỏ box-shadow */
+}
+
+.nav .nav-link {
+	background-color: rgb(141, 141, 141);
+	color: rgb(255, 255, 255);
+}
+
+.nav-link:not(.active):hover {
+	color: white;
+	background-color: gray;
+
+}
+
+.is-invalid {
+	border-color: #dc3545 !important;
+	/* Màu đỏ */
+}
+
+.tablemodal td {
+	font-size: 13px;
+	padding: 5px 0px;
+}
+
+.tablemodal th {
+	font-size: 15px;
+	padding: 5px 0px;
+}
+
+.table-bordered-outer {
+	border-collapse: separate;
+	border-spacing: 0;
+	border: 2px solid #000;
+	/* Viền ngoài đậm hơn */
+}
+
+.table-bordered-outer thead th,
+.table-bordered-outer tbody td {
+	border: 1px solid #dee2e6;
+	/* Viền bên trong nhạt hơn */
+}
+
+.tablemodal td,
+tr,
+th {
+	text-align: center;
+	padding: 5px 0px;
+}
+
+.btn {
+	transition: transform 0.3s ease-in-out;
+}
+
+.btn:active {
+	transform: scale(0.95);
+}
+
+@keyframes btn-click {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(0.95);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.btn:active {
+	animation: btn-click 0.3s ease-in-out;
+}
+
+.tdct {
+	height: 50px;
+}
+
+#menuModalLabel {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.col input[readonly] {
+	background-color: white;
+	border: solid 1px;
+	color: #495057;
+	cursor: text;
+	text-align: center;
+}

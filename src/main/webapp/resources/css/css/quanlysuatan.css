@@ -1,0 +1,347 @@
+ .table1 {
+ 	border: 1px solid black;
+ 	/* Độ dày viền ngoài của bảng */
+ }
+
+ .table1 th,
+ .table1 td {
+ 	border: 1px solid black;
+ 	/* Độ dày viền của các ô trong bảng */
+ }
+
+ .table1 thead th {
+ 	border-bottom: 1px solid black;
+ 	/* Độ dày viền dưới của tiêu đề bảng */
+ }
+
+ .table2 {
+ 	border: 1px solid black;
+ 	/* Độ dày viền ngoài của bảng */
+ }
+
+ .table2 th,
+ .table2 {
+ 	border: 1px solid black;
+ 	/* Độ dày viền của các ô trong bảng */
+ }
+
+ .table2 thead th {
+ 	border-bottom: 1px solid black;
+ 	/* Độ dày viền dưới của tiêu đề bảng */
+ }
+
+ .table2 tbody th {
+ 	border-top: none;
+ 	/* Độ dày viền dưới của tiêu đề bảng */
+ }
+
+ .col-form-label {
+ 	font-size: 13px;
+ }
+
+ th,
+ td {
+ 	padding: 0.75rem;
+ 	text-align: left;
+ 	vertical-align: top;
+ 	border-top: 1px solid #dee2e6;
+ }
+
+ thead th {
+ 	position: sticky;
+ 	/* Giữ tiêu đề cố định khi cuộn */
+ 	top: 0;
+ 	background-color: #f8f9fa;
+ 	z-index: 1;
+ }
+
+ .border-table {
+ 	position: relative;
+ 	border: solid 2px black;
+ 	padding-top: 20px;
+ 	/* Đệm trên để tiêu đề không che khuất nội dung */
+ }
+
+ .title-table {
+ 	position: absolute;
+ 	top: -13px;
+ 	left: 10px;
+ 	background: white;
+ 	/* Màu nền để tiêu đề không bị che khuất */
+ 	padding: 0 5px;
+ 	/* Đệm xung quanh tiêu đề */
+ }
+
+ .col-form-label {
+ 	font-size: 10px;
+ 	font-weight: bold;
+ 	text-align: right;
+ }
+
+ label {
+ 	font-size: 13px;
+ }
+
+ button {
+ 	box-shadow: 2px 3px 4px 0px;
+ }
+
+ .carousel-inner {
+ 	height: 730px;
+ 	width: 100%;
+ }
+
+ .scrollable-table {
+ 	height: 369px;
+ 	overflow-y: auto;
+ 	display: block;
+ }
+
+ nav {
+ 	display: flex;
+ 	align-items: center;
+ 	height: 42px;
+ 	/* Đặt chiều cao phù hợp */
+ 	background-color: #f8f9fa;
+ 	/* Màu nền tùy ý */
+ 	border: none;
+ 	/* Loại bỏ border */
+ 	box-shadow: none;
+ 	/* Loại bỏ box-shadow */
+ }
+
+ nav ul {
+ 	display: flex;
+ 	list-style: none;
+ 	width: 100%;
+ 	margin: 0;
+ 	/* Loại bỏ margin */
+ 	padding: 0;
+ 	/* Loại bỏ padding */
+ }
+
+ nav ul li {
+ 	flex: 1;
+ 	text-align: center;
+ 	line-height: 50px;
+ 	/* Căn giữa văn bản theo chiều dọc */
+ 	border: none;
+ 	/* Loại bỏ border */
+ 	box-shadow: none;
+ 	/* Loại bỏ box-shadow */
+ }
+
+ .nav .nav-link {
+ 	background-color: rgb(141, 141, 141);
+ 	color: rgb(255, 255, 255);
+ }
+
+ .nav-link:not(.active):hover {
+ 	color: white;
+ 	background-color: gray;
+
+ }
+
+ table {
+ 	width: 100%;
+ 	table-layout: fixed;
+ }
+
+ th,
+ td {
+ 	text-align: center;
+ 	vertical-align: top;
+ 	border-top: 1px solid #dee2e6;
+ 	font-size: 12px;
+ }
+
+ .table1 th:nth-child(1) {
+ 	width: 5%;
+ }
+
+ .table1 th:nth-child(2) {
+ 	width: 15%;
+ }
+
+ .table1 th:nth-child(3) {
+ 	width: 10%;
+ }
+
+ .table1 th:nth-child(7) {
+ 	width: 12%;
+ }
+
+ .table1 thead th {
+ 	border-bottom: 1px solid black;
+ 	padding: 10px 0px;
+ }
+
+ thead th {
+ 	position: sticky;
+ 	top: 0;
+ 	background-color: rgb(209, 209, 209);
+ 	color: rgb(0, 0, 0);
+ 	z-index: 1;
+ }
+
+ button[type="button"] {
+ 	background-color: rgb(209, 209, 209);
+ 	color: black;
+ }
+
+ .border-table {
+ 	position: relative;
+ 	border: solid 2px black;
+ 	padding-top: 20px;
+ }
+
+ .title-table {
+ 	position: absolute;
+ 	top: -13px;
+ 	left: 10px;
+ 	background: white;
+ 	padding: 0 5px;
+ }
+
+ .col-form-label {
+ 	font-weight: bold;
+ 	text-align: right;
+ }
+
+
+ .table2 td {
+ 	border: 1px solid rgb(0, 0, 0);
+ 	/* Thêm border cho tất cả các ô */
+ }
+
+ table h6 {
+ 	font-size: 12px;
+ 	text-align: center;
+ }
+
+ .table2 td:nth-child(1),
+ .table2 td:nth-child(3),
+ .table2 td:nth-child(5),
+ .table2 td:nth-child(7),
+ .table2 td:nth-child(9),
+ .table2 td:nth-child(11),
+ .table2 td:nth-child(12),
+ .table2 td:nth-child(13) {
+ 	border-right: none;
+ 	text-align: center;
+ }
+
+ .table2 td:nth-child(2),
+ .table2 td:nth-child(4),
+ .table2 td:nth-child(6),
+ .table2 td:nth-child(8),
+ .table2 td:nth-child(10),
+ .table2 td:nth-child(12),
+ .table2 td:nth-child(13),
+ .table2 td:nth-child(14) {
+ 	border-left: none;
+ 	text-align: center;
+ }
+
+ .table2 th:nth-child(1),
+ .table2 th:nth-child(2),
+ .table2 th:nth-child(3),
+ .table2 th:nth-child(4),
+ .table2 th:nth-child(5),
+ .table2 th:nth-child(6) {
+ 	border-bottom: none;
+ 	/* Loại bỏ đường border ở dưới các cột tiêu đề */
+ 	text-align: center;
+ 	/* Căn giữa các tiêu đề */
+ }
+
+ .form-control {
+ 	font-size: 13px;
+ 	padding-inline: 0;
+ }
+
+ .col-form-label {
+ 	font-size: 13px;
+ }
+
+ .part2 h6 {
+ 	font-size: 13px;
+ }
+
+ .box {
+ 	height: 70px;
+ 	width: 60x;
+ 	border: solid 2px;
+ 	justify-content: center;
+ 	align-items: center;
+ 	display: flex;
+ }
+
+ .error-msg1,
+ .error-msg2,
+ .error-msg3,
+ .error-msg4,
+ .error-msg5 {
+ 	font-size: 13px;
+ }
+
+ .col-1 .ml-1 label {
+ 	font-weight: bold;
+ }
+
+ #tableFood tr:hover {
+ 	background-color: rgb(192, 192, 192);
+ 	cursor: pointer;
+ }
+
+ /* Hiệu ứng khi chọn dòng */
+ #tableFood tr.selected {
+ 	background-color: rgb(109, 109, 107);
+ 	color: white;
+ }
+
+ .outline {
+ 	transition: transform 0.3s ease-in-out;
+ }
+
+ .outline:active {
+ 	transform: scale(0.95);
+ }
+
+ @keyframes btn-click {
+ 	0% {
+ 		transform: scale(1);
+ 	}
+
+ 	50% {
+ 		transform: scale(0.95);
+ 	}
+
+ 	100% {
+ 		transform: scale(1);
+ 	}
+ }
+
+ .outline:active {
+ 	animation: btn-click 0.3s ease-in-out;
+ }
+
+ .btn-ctp {
+ 	padding: 0 10px;
+ }
+
+ .mt-3 input[readonly] {
+ 	background-color: white;
+ 	border: solid 1px;
+ 	color: #495057;
+ 	cursor: text;
+ 	text-align: center;
+ }
+ 
+ .thanhphan input[readonly] {
+ 	background-color: white;
+ 	border: solid 1px;
+ 	color: #495057;
+ 	cursor: text;
+ 	text-align: center;
+ }
