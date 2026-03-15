@@ -12,18 +12,6 @@ The platform improves school administration by organizing important information 
 - Tuition fee management
 - Administrative management for schools
 
-## Tech Stack
-
-- Java
-- Spring Boot
-- MySQL
-- REST API
-- Git
-
-## Architecture
-
-Client → REST API → Spring Boot Backend → MySQL Database
-
 ## Author
 
 Trieu Luong Van  
